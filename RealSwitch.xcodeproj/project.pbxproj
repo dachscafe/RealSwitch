@@ -11,6 +11,7 @@
 		149688FA29A19ED300FDB409 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149688F929A19ED300FDB409 /* ContentView.swift */; };
 		149688FC29A19ED400FDB409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149688FB29A19ED400FDB409 /* Assets.xcassets */; };
 		1496890029A19ED400FDB409 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149688FF29A19ED400FDB409 /* Preview Assets.xcassets */; };
+		1496890729A19F0900FDB409 /* SwitchButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496890629A19F0900FDB409 /* SwitchButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		149688FB29A19ED400FDB409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149688FD29A19ED400FDB409 /* RealSwitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RealSwitch.entitlements; sourceTree = "<group>"; };
 		149688FF29A19ED400FDB409 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1496890629A19F0900FDB409 /* SwitchButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				149688F729A19ED300FDB409 /* RealSwitchApp.swift */,
 				149688F929A19ED300FDB409 /* ContentView.swift */,
+				1496890629A19F0900FDB409 /* SwitchButtonView.swift */,
 				149688FB29A19ED400FDB409 /* Assets.xcassets */,
 				149688FD29A19ED400FDB409 /* RealSwitch.entitlements */,
 				149688FE29A19ED400FDB409 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1496890729A19F0900FDB409 /* SwitchButtonView.swift in Sources */,
 				149688FA29A19ED300FDB409 /* ContentView.swift in Sources */,
 				149688F829A19ED300FDB409 /* RealSwitchApp.swift in Sources */,
 			);

@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var isOn: Bool = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Color(.black)
+                .ignoresSafeArea()
+            Button {
+                isOn.toggle()
+                // ここに触覚FBのモジュールとか入れるといい。
+            } label: {
+                SwitchButtonView(isOn: isOn)
+            }
+            .buttonStyle(.plain)
         }
-        .padding()
     }
 }
 
